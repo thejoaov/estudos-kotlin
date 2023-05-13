@@ -11,7 +11,7 @@ fun main() {
 
     println("Marido $marido, Mulher $mulher")
 
-    val (_,_,terceiroLugar) = listOf("Kimi", "Hamilton", "Alonso")
+    val (_, _, terceiroLugar) = listOf("Kimi", "Hamilton", "Alonso")
 
     println("$terceiroLugar terminou em terceiro")
 }

@@ -1,7 +1,7 @@
 package fundamentos
 
 fun main() {
-    val a:Int = 33.dec()
+    val a: Int = 33.dec()
     val b: String = a.toString()
 
     println("Int: $a")

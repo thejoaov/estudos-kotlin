@@ -2,9 +2,10 @@ package funcoes
 
 class Produto(
     val nome: String,
-    val preco: Double)
+    val preco: Double
+)
 
-infix fun Produto.maisCaroQue(produto: Produto):Boolean = this.preco > produto.preco
+infix fun Produto.maisCaroQue(produto: Produto): Boolean = this.preco > produto.preco
 
 fun main() {
     val p1 = Produto("ipad", 2349.00)

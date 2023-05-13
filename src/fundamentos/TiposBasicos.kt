@@ -17,6 +17,6 @@ fun main() {
     // Tipo booleano
     val boolean: Boolean = true // ou false
 
-    println(listOf(num1,num2,num3,num4,num5,num6,char,boolean))
+    println(listOf(num1, num2, num3, num4, num5, num6, char, boolean))
 
 }

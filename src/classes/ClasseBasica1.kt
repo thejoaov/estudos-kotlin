@@ -1,7 +1,7 @@
 package classes
 
 class Cliente {
-    var nome:String=""
+    var nome: String = ""
 }
 
 fun main() {

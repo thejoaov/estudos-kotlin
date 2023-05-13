@@ -1,9 +1,9 @@
 package fundamentos
 
-fun imprimirSoma(a:Int, b:Int){
-    println(a+b)
+fun imprimirSoma(a: Int, b: Int) {
+    println(a + b)
 }
 
 fun main() {
-    imprimirSoma(2,3)
+    imprimirSoma(2, 3)
 }

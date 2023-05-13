@@ -10,7 +10,7 @@ fun main() {
     // String pra numero
     println("1.9".toDouble() + 3)
     println("Teste".toIntOrNull())
-    println("Teste".toIntOrNull()?:0)
-    println("1".toInt()+3)
+    println("Teste".toIntOrNull() ?: 0)
+    println("1".toInt() + 3)
 
 }

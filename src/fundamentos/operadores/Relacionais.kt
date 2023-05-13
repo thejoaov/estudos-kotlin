@@ -1,6 +1,6 @@
 package fundamentos.operadores
 
-import java.util.Date
+import java.util.*
 
 fun main() {
     println("Banana" === "Banana")

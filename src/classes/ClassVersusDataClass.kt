@@ -1,7 +1,7 @@
 package classes
 
-class Geladeira(val marca:String, val litros:Int)
-data class Televisao(val marca:String, val polegadas: Int)
+class Geladeira(val marca: String, val litros: Int)
+data class Televisao(val marca: String, val polegadas: Int)
 
 fun main() {
     val g1 = Geladeira("Brastemp", 320)
@@ -13,7 +13,7 @@ fun main() {
     val tv2 = Televisao("Samsung", 32)
 
     println(tv1 == tv2) // data class: equals compara apenas os objetos, como são iguais, o resultado dá true
-    println(tv1 === tv1 ) // agora o equals compara a instância, logo, dá false
+    println(tv1 === tv1) // agora o equals compara a instância, logo, dá false
 
     println(g1.toString()) // class normal: toString imprime a instância
     println(tv1.toString()) // data class: toString imprime o objeto

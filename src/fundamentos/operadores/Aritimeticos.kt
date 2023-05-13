@@ -1,7 +1,7 @@
 package fundamentos.operadores
 
 fun main() {
-    val (v1,v2,v3,v4) = listOf(3,5,1,15)
+    val (v1, v2, v3, v4) = listOf(3, 5, 1, 15)
 
     val soma = v1 + v2 + v3 + v4
     val subtracao = v4 - v2
